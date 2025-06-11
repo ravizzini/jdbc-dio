@@ -10,6 +10,6 @@ public class DB {
         if (connection != null) {
             return connection;
         }
-        return DriverManager.getConnection("jdbc:mysql://localhost:3306/db_cadastro_cliente", "root", "root");
+        return DriverManager.getConnection("jdbc:mysql://localhost:3306/db_cadastro_cliente", "root", "C03lho");
     }
 }
